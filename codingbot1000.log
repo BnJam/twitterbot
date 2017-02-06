@@ -8,3 +8,11 @@
 06 Feb 2017 22:43:19 [{u'message': u'Bad Authentication data.', u'code': 215}]
 06 Feb 2017 22:56:55 [{u'message': u'Bad Authentication data.', u'code': 215}]
 06 Feb 2017 22:59:06 Tweeted: My first tweet
+06 Feb 2017 23:32:35 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+06 Feb 2017 23:33:07 
+06 Feb 2017 23:33:08 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+06 Feb 2017 23:33:11 
+06 Feb 2017 23:33:11 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+06 Feb 2017 23:33:16 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+06 Feb 2017 23:33:25 
+06 Feb 2017 23:33:25 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
