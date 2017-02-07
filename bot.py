@@ -33,20 +33,25 @@ class PyStreamListener(StreamListener):
 	def on_data(self, data):
 		tweet = json.loads(data)
 		try:
-			publish = True
-			for word in AVOID:
-				if word in tweet['text'].lower():
-					logging.info("SKIPPED FOR {}".format(word))
+			try:
+				publish = True
+				for word in AVOID:
+					if word in tweet['text'].lower():
+						logging.info("SKIPPED FOR {}".format(word))
+						publish = False
+				if tweet.get('lang') and tweet.get('lang') != 'en':
 					publish = False
-			if tweet.get('lang') and tweet.get('lang') != 'en':
-				publish = False
-			if publish:
-				twitter_client.retweet(tweet['id'])
-				logging.debug("RT: {}".format(tweet['text']))
-		except Exception as e:
-			logging.error(e)
-			log(e.message)
-		return True
+				if publish:
+					twitter_client.retweet(tweet['id_str'])
+					logging.debug("RT: {}".format(tweet['text']))
+					log("Retweeted: " + tweet['id_str'])
+			except Exception as e:
+				logging.error(e)
+				log(e.message)
+				log(twitter_client.rate_limit_status())
+			return True
+		except tweepy.RateLimitError:
+			handle_rate_limit_error()
 
 	def on_error(self, status):
 		print status
@@ -88,4 +93,4 @@ if __name__ == "__main__":
 #	tweet(tweet_text)
 	listener = PyStreamListener()
 	stream = Stream(auth_handler, listener)
-	stream.filter(track=['#code','#coding','#programming'])
+	stream.filter(track=['#develop', '#coding', '#programming'])
