@@ -1,6 +1,13 @@
 README
 
+codingbot1000 is a retweeting twitter bot that retweets on Computer 
+Science related tweets
 
+Twitter API
+http://docs.tweepy.org/en/v3.5.0/api.html 
+
+Twitter-Python (consideration):
+http://python-twitter.readthedocs.io/en/latest/rate_limits.html 
 
 Credit: 
 

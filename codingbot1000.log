@@ -24,5 +24,119 @@
 07 Feb 2017 00:33:20 
 07 Feb 2017 00:33:20 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
 07 Feb 2017 00:33:35 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
-07 Feb 2017 05:52:49 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
-07 Feb 2017 05:52:49 {u'rate_limit_context': {u'access_token': u'828692314826477569-g5Y1h4LJjTygebu6nrQrM3j8nMKu9kM'}, u'resources': {u'lists': {u'/lists/subscribers/show': {u'reset': 1486447653, u'limit': 15, u'remaining': 15}, u'/lists/subscriptions': {u'reset': 1486447653, u'limit': 15, u'remaining': 15}, u'/lists/statuses': {u'reset': 1486447653, u'limit': 900, u'remaining': 900}, u'/lists/members/show': {u'reset': 1486447653, u'limit': 15, u'remaining': 15}, u'/lists/subscribers': {u'reset': 1486447653, u'limit': 180, u'remaining': 180}, u'/lists/list': {u'reset': 1486447653, u'limit': 15, u'remaining': 15}, u'/lists/show': {u'reset': 1486447653, u'limit': 75, u'remaining': 75}, u'/lists/memberships': {u'reset': 1486447653, u'limit': 75, u'remaining': 75}, u'/lists/members': {u'reset': 1486447653, u'limit': 900, u'remaining': 900}, u'/lists/ownerships': {u'reset': 1486447653, u'limit': 15, u'remaining': 15}}, u'feedback': {u'/feedback/show/:id': {u'reset': 1486447653, u'limit': 180, u'remaining': 180}, u'/feedback/events': {u'reset': 1486447653, u'limit': 1000, u'remaining': 1000}}, u'moments': {u'/moments/permissions': {u'reset': 1486447653, u'limit': 300, u'remaining': 300}}, u'tweet_prompts': {u'/tweet_prompts/show': {u'reset': 1486447653, u'limit': 180, u'remaining': 180}, u'/tweet_prompts/report_interaction': {u'reset': 1486447653, u'limit': 180, u'remaining': 180}}, u'live_pipeline': {u'/live_pipeline/events': {u'reset': 1486447653, u'limit': 180, u'remaining': 180}}, u'friendships': {u'/friendships/outgoing': {u'reset': 1486447653, u'limit': 15, u'remaining': 15}, u'/friendships/no_retweets/ids': {u'reset': 1486447653, u'limit': 15, u'remaining': 15}, u'/friendships/list': {u'reset': 1486447653, u'limit': 200, u'remaining': 200}, u'/friendships/show': {u'reset': 1486447653, u'limit': 180, u'remaining': 180}, u'/friendships/incoming': {u'reset': 1486447653, u'limit': 15, u'remaining': 15}, u'/friendships/lookup': {u'reset': 1486447653, u'limit': 15, u'remaining': 15}}, u'statuses': {u'/statuses/retweets_of_me': {u'reset': 1486447653, u'limit': 75, u'remaining': 75}, u'/statuses/retweeters/ids': {u'reset': 1486447653, u'limit': 75, u'remaining': 75}, u'/statuses/mentions_timeline': {u'reset': 1486447653, u'limit': 75, u'remaining': 75}, u'/statuses/user_timeline': {u'reset': 1486447653, u'limit': 900, u'remaining': 900}, u'/statuses/lookup': {u'reset': 1486447653, u'limit': 900, u'remaining': 900}, u'/statuses/oembed': {u'reset': 1486447653, u'limit': 180, u'remaining': 180}, u'/statuses/show/:id': {u'reset': 1486447653, u'limit': 900, u'remaining': 900}, u'/statuses/friends': {u'reset': 1486447653, u'limit': 15, u'remaining': 15}, u'/statuses/home_timeline': {u'reset': 1486447653, u'limit': 15, u'remaining': 15}, u'/statuses/retweets/:id': {u'reset': 1486447653, u'limit': 75, u'remaining': 75}}, u'help': {u'/help/tos': {u'reset': 1486447653, u'limit': 15, u'remaining': 15}, u'/help/settings': {u'reset': 1486447653, u'limit': 15, u'remaining': 15}, u'/help/privacy': {u'reset': 1486447653, u'limit': 15, u'remaining': 15}, u'/help/configuration': {u'reset': 1486447653, u'limit': 15, u'remaining': 15}, u'/help/languages': {u'reset': 1486447653, u'limit': 15, u'remaining': 15}}, u'drafts': {u'/drafts/statuses/list': {u'reset': 1486447653, u'limit': 450, u'remaining': 450}, u'/drafts/statuses/destroy': {u'reset': 1486447653, u'limit': 450, u'remaining': 450}, u'/drafts/statuses/create': {u'reset': 1486447653, u'limit': 450, u'remaining': 450}, u'/drafts/statuses/ids': {u'reset': 1486447653, u'limit': 450, u'remaining': 450}, u'/drafts/statuses/update': {u'reset': 1486447653, u'limit': 450, u'remaining': 450}, u'/drafts/statuses/show': {u'reset': 1486447653, u'limit': 450, u'remaining': 450}}, u'contacts': {u'/contacts/uploaded_by': {u'reset': 1486447653, u'limit': 300, u'remaining': 300}, u'/contacts/users_and_uploaded_by': {u'reset': 1486447653, u'limit': 300, u'remaining': 300}, u'/contacts/delete/status': {u'reset': 1486447653, u'limit': 300, u'remaining': 300}, u'/contacts/users': {u'reset': 1486447653, u'limit': 300, u'remaining': 300}, u'/contacts/addressbook': {u'reset': 1486447653, u'limit': 300, u'remaining': 300}}, u'geo': {u'/geo/similar_places': {u'reset': 1486447653, u'limit': 15, u'remaining': 15}, u'/geo/id/:place_id': {u'reset': 1486447653, u'limit': 75, u'remaining': 75}, u'/geo/reverse_geocode': {u'reset': 1486447653, u'limit': 15, u'remaining': 15}, u'/geo/search': {u'reset': 1486447653, u'limit': 15, u'remaining': 15}}, u'business_experience': {u'/business_experience/dashboard_settings/show': {u'reset': 1486447653, u'limit': 450, u'remaining': 450}, u'/business_experience/keywords': {u'reset': 1486447653, u'limit': 450, u'remaining': 450}, u'/business_experience/dashboard_settings/destroy': {u'reset': 1486447653, u'limit': 450, u'remaining': 450}, u'/business_experience/dashboard_features': {u'reset': 1486447653, u'limit': 450, u'remaining': 450}, u'/business_experience/dashboard_settings/update': {u'reset': 1486447653, u'limit': 450, u'remaining': 450}}, u'application': {u'/application/rate_limit_status': {u'reset': 1486447640, u'limit': 180, u'remaining': 177}}, u'collections': {u'/collections/list': {u'reset': 1486447653, u'limit': 1000, u'remaining': 1000}, u'/collections/show': {u'reset': 1486447653, u'limit': 1000, u'remaining': 1000}, u'/collections/entries': {u'reset': 1486447653, u'limit': 1000, u'remaining': 1000}}, u'followers': {u'/followers/list': {u'reset': 1486447653, u'limit': 15, u'remaining': 15}, u'/followers/ids': {u'reset': 1486447653, u'limit': 15, u'remaining': 15}}, u'mutes': {u'/mutes/users/list': {u'reset': 1486447653, u'limit': 15, u'remaining': 15}, u'/mutes/users/ids': {u'reset': 1486447653, u'limit': 15, u'remaining': 15}}, u'saved_searches': {u'/saved_searches/show/:id': {u'reset': 1486447653, u'limit': 15, u'remaining': 15}, u'/saved_searches/list': {u'reset': 1486447653, u'limit': 15, u'remaining': 15}, u'/saved_searches/destroy/:id': {u'reset': 1486447653, u'limit': 15, u'remaining': 15}}, u'blocks': {u'/blocks/list': {u'reset': 1486447653, u'limit': 15, u'remaining': 15}, u'/blocks/ids': {u'reset': 1486447653, u'limit': 15, u'remaining': 15}}, u'users': {u'/users/suggestions/:slug': {u'reset': 1486447653, u'limit': 15, u'remaining': 15}, u'/users/lookup': {u'reset': 1486447653, u'limit': 900, u'remaining': 900}, u'/users/search': {u'reset': 1486447653, u'limit': 900, u'remaining': 900}, u'/users/suggestions/:slug/members': {u'reset': 1486447653, u'limit': 15, u'remaining': 15}, u'/users/derived_info': {u'reset': 1486447653, u'limit': 15, u'remaining': 15}, u'/users/show/:id': {u'reset': 1486447653, u'limit': 900, u'remaining': 900}, u'/users/suggestions': {u'reset': 1486447653, u'limit': 15, u'remaining': 15}, u'/users/report_spam': {u'reset': 1486447653, u'limit': 15, u'remaining': 15}, u'/users/profile_banner': {u'reset': 1486447653, u'limit': 180, u'remaining': 180}}, u'search': {u'/search/tweets': {u'reset': 1486447653, u'limit': 180, u'remaining': 180}}, u'auth': {u'/auth/csrf_token': {u'reset': 1486447653, u'limit': 15, u'remaining': 15}}, u'custom_profiles': {u'/custom_profiles/list': {u'reset': 1486447653, u'limit': 180, u'remaining': 180}, u'/custom_profiles/show': {u'reset': 1486447653, u'limit': 180, u'remaining': 180}}, u'favorites': {u'/favorites/list': {u'reset': 1486447653, u'limit': 75, u'remaining': 75}}, u'device': {u'/device/token': {u'reset': 1486447653, u'limit': 15, u'remaining': 15}}, u'webhooks': {u'/webhooks/subscriptions/direct_messages': {u'reset': 1486447653, u'limit': 15, u'remaining': 15}}, u'friends': {u'/friends/list': {u'reset': 1486447653, u'limit': 15, u'remaining': 15}, u'/friends/following/ids': {u'reset': 1486447653, u'limit': 15, u'remaining': 15}, u'/friends/ids': {u'reset': 1486447653, u'limit': 15, u'remaining': 15}, u'/friends/following/list': {u'reset': 1486447653, u'limit': 15, u'remaining': 15}}, u'account': {u'/account/verify_credentials': {u'reset': 1486447653, u'limit': 75, u'remaining': 75}, u'/account/settings': {u'reset': 1486447653, u'limit': 15, u'remaining': 15}, u'/account/login_verification_enrollment': {u'reset': 1486447653, u'limit': 15, u'remaining': 15}, u'/account/update_profile': {u'reset': 1486447653, u'limit': 15, u'remaining': 15}}, u'live_video_stream': {u'/live_video_stream/status/:id': {u'reset': 1486447653, u'limit': 1000, u'remaining': 1000}}, u'trends': {u'/trends/available': {u'reset': 1486447653, u'limit': 75, u'remaining': 75}, u'/trends/closest': {u'reset': 1486447653, u'limit': 75, u'remaining': 75}, u'/trends/place': {u'reset': 1486447653, u'limit': 75, u'remaining': 75}}, u'media': {u'/media/upload': {u'reset': 1486447653, u'limit': 500, u'remaining': 500}}, u'direct_messages': {u'/direct_messages/show': {u'reset': 1486447653, u'limit': 300, u'remaining': 300}, u'/direct_messages': {u'reset': 1486447653, u'limit': 300, u'remaining': 300}, u'/direct_messages/sent_and_received': {u'reset': 1486447653, u'limit': 300, u'remaining': 300}, u'/direct_messages/events/list': {u'reset': 1486447653, u'limit': 600, u'remaining': 600}, u'/direct_messages/sent': {u'reset': 1486447653, u'limit': 300, u'remaining': 300}, u'/direct_messages/events/show': {u'reset': 1486447653, u'limit': 300, u'remaining': 300}}}}
+07 Feb 2017 06:29:16 
+07 Feb 2017 06:29:16 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:29:17 Retweeted: 828853048336343040
+07 Feb 2017 06:29:18 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:29:35 Retweeted: 828853126941650944
+07 Feb 2017 06:29:36 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:30:10 Retweeted: 828853273448820736
+07 Feb 2017 06:30:11 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:30:14 
+07 Feb 2017 06:30:14 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:30:18 Retweeted: 828853302326595584
+07 Feb 2017 06:30:19 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:30:22 
+07 Feb 2017 06:30:22 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:30:24 
+07 Feb 2017 06:30:24 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:30:54 Retweeted: 828853453250105344
+07 Feb 2017 06:30:54 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:31:18 Retweeted: 828853555905839104
+07 Feb 2017 06:31:18 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:32:22 
+07 Feb 2017 06:32:22 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:36:55 
+07 Feb 2017 06:36:55 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:38:45 
+07 Feb 2017 06:38:45 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:39:08 
+07 Feb 2017 06:39:09 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:39:31 Retweeted: 828855625618690048
+07 Feb 2017 06:39:31 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:39:35 Retweeted: 828855641326366720
+07 Feb 2017 06:39:35 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:39:42 Retweeted: 828855672418627586
+07 Feb 2017 06:39:43 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:40:05 
+07 Feb 2017 06:40:05 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:40:06 Retweeted: 828855771030966273
+07 Feb 2017 06:40:06 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:40:13 
+07 Feb 2017 06:40:13 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:40:34 
+07 Feb 2017 06:40:34 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:40:36 Retweeted: 828855898978213889
+07 Feb 2017 06:40:37 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:40:42 Retweeted: 828855923519025152
+07 Feb 2017 06:40:42 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:40:58 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:41:09 Retweeted: 828856038010990592
+07 Feb 2017 06:41:10 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:41:20 Retweeted: 828856081870905346
+07 Feb 2017 06:41:20 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:41:24 Retweeted: 828856099088445440
+07 Feb 2017 06:41:24 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:41:29 
+07 Feb 2017 06:41:29 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:41:29 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:41:32 
+07 Feb 2017 06:41:33 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:41:37 Retweeted: 828856153014546433
+07 Feb 2017 06:41:37 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:41:42 Retweeted: 828856174627930112
+07 Feb 2017 06:41:42 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:41:46 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:42:05 Retweeted: 828856271017086978
+07 Feb 2017 06:42:05 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:43:12 Retweeted: 828856526127239168
+07 Feb 2017 06:43:18 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:43:25 Retweeted: 828856562642870272
+07 Feb 2017 06:43:32 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:43:39 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:43:59 Failed to send request: EOF occurred in violation of protocol (_ssl.c:581)
+07 Feb 2017 06:44:16 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:44:42 Retweeted: 828856916843515904
+07 Feb 2017 06:44:43 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:44:54 Retweeted: 828856956769013760
+07 Feb 2017 06:45:01 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:45:11 
+07 Feb 2017 06:45:17 Retweeted: 828857036016226304
+07 Feb 2017 06:45:23 
+07 Feb 2017 06:45:30 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:45:36 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:45:42 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:45:48 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:45:53 
+07 Feb 2017 06:45:59 
+07 Feb 2017 06:46:03 Retweeted: 828857101980012546
+07 Feb 2017 06:46:03 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:46:04 Retweeted: 828857154840850432
+07 Feb 2017 06:46:10 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:46:12 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:46:12 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:46:15 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:46:40 Retweeted: 828857396336418817
+07 Feb 2017 06:46:45 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:46:52 Retweeted: 828857456176402432
+07 Feb 2017 06:46:55 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:47:09 Retweeted: 828857536853872640
+07 Feb 2017 06:47:09 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:47:36 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:47:37 Retweeted: 828857662255165444
+07 Feb 2017 06:47:37 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:47:37 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:48:05 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:48:17 Retweeted: 828857832833417216
+07 Feb 2017 06:48:18 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:48:21 Retweeted: 828857849975418880
+07 Feb 2017 06:48:22 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:48:29 Retweeted: 828857883043385344
+07 Feb 2017 06:48:30 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:48:32 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:48:35 Retweeted: 828857906770669568
+07 Feb 2017 06:48:35 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:50:10 
+07 Feb 2017 06:50:10 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:50:19 
+07 Feb 2017 06:50:19 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
