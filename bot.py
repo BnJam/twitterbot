@@ -48,7 +48,7 @@ class PyStreamListener(StreamListener):
 			except Exception as e:
 				logging.error(e)
 				log(e.message)
-				log(twitter_client.rate_limit_status())
+				#log(twitter_client.rate_limit_status())
 			return True
 		except tweepy.RateLimitError:
 			handle_rate_limit_error()
