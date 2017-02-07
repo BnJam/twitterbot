@@ -1,0 +1,391 @@
+
+06 Feb 2017 22:24:34 [{u'message': u'Bad Authentication data.', u'code': 215}]
+06 Feb 2017 22:24:53 [{u'message': u'Bad Authentication data.', u'code': 215}]
+06 Feb 2017 22:25:06 [{u'message': u'Bad Authentication data.', u'code': 215}]
+06 Feb 2017 22:31:33 [{u'message': u'Bad Authentication data.', u'code': 215}]
+06 Feb 2017 22:32:14 [{u'message': u'Bad Authentication data.', u'code': 215}]
+06 Feb 2017 22:33:33 [{u'message': u'Bad Authentication data.', u'code': 215}]
+06 Feb 2017 22:43:19 [{u'message': u'Bad Authentication data.', u'code': 215}]
+06 Feb 2017 22:56:55 [{u'message': u'Bad Authentication data.', u'code': 215}]
+06 Feb 2017 22:59:06 Tweeted: My first tweet
+06 Feb 2017 23:32:35 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+06 Feb 2017 23:33:07 
+06 Feb 2017 23:33:08 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+06 Feb 2017 23:33:11 
+06 Feb 2017 23:33:11 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+06 Feb 2017 23:33:16 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+06 Feb 2017 23:33:25 
+06 Feb 2017 23:33:25 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 00:18:22 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 00:18:32 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 00:19:07 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 00:19:27 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 00:31:28 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 00:33:20 
+07 Feb 2017 00:33:20 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 00:33:35 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:29:16 
+07 Feb 2017 06:29:16 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:29:17 Retweeted: 828853048336343040
+07 Feb 2017 06:29:18 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:29:35 Retweeted: 828853126941650944
+07 Feb 2017 06:29:36 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:30:10 Retweeted: 828853273448820736
+07 Feb 2017 06:30:11 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:30:14 
+07 Feb 2017 06:30:14 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:30:18 Retweeted: 828853302326595584
+07 Feb 2017 06:30:19 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:30:22 
+07 Feb 2017 06:30:22 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:30:24 
+07 Feb 2017 06:30:24 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:30:54 Retweeted: 828853453250105344
+07 Feb 2017 06:30:54 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:31:18 Retweeted: 828853555905839104
+07 Feb 2017 06:31:18 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:32:22 
+07 Feb 2017 06:32:22 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:36:55 
+07 Feb 2017 06:36:55 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:38:45 
+07 Feb 2017 06:38:45 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:39:08 
+07 Feb 2017 06:39:09 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:39:31 Retweeted: 828855625618690048
+07 Feb 2017 06:39:31 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:39:35 Retweeted: 828855641326366720
+07 Feb 2017 06:39:35 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:39:42 Retweeted: 828855672418627586
+07 Feb 2017 06:39:43 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:40:05 
+07 Feb 2017 06:40:05 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:40:06 Retweeted: 828855771030966273
+07 Feb 2017 06:40:06 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:40:13 
+07 Feb 2017 06:40:13 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:40:34 
+07 Feb 2017 06:40:34 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:40:36 Retweeted: 828855898978213889
+07 Feb 2017 06:40:37 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:40:42 Retweeted: 828855923519025152
+07 Feb 2017 06:40:42 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:40:58 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:41:09 Retweeted: 828856038010990592
+07 Feb 2017 06:41:10 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:41:20 Retweeted: 828856081870905346
+07 Feb 2017 06:41:20 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:41:24 Retweeted: 828856099088445440
+07 Feb 2017 06:41:24 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:41:29 
+07 Feb 2017 06:41:29 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:41:29 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:41:32 
+07 Feb 2017 06:41:33 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:41:37 Retweeted: 828856153014546433
+07 Feb 2017 06:41:37 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:41:42 Retweeted: 828856174627930112
+07 Feb 2017 06:41:42 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:41:46 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:42:05 Retweeted: 828856271017086978
+07 Feb 2017 06:42:05 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:43:12 Retweeted: 828856526127239168
+07 Feb 2017 06:43:18 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:43:25 Retweeted: 828856562642870272
+07 Feb 2017 06:43:32 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:43:39 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:43:59 Failed to send request: EOF occurred in violation of protocol (_ssl.c:581)
+07 Feb 2017 06:44:16 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:44:42 Retweeted: 828856916843515904
+07 Feb 2017 06:44:43 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:44:54 Retweeted: 828856956769013760
+07 Feb 2017 06:45:01 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:45:11 
+07 Feb 2017 06:45:17 Retweeted: 828857036016226304
+07 Feb 2017 06:45:23 
+07 Feb 2017 06:45:30 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:45:36 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:45:42 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:45:48 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:45:53 
+07 Feb 2017 06:45:59 
+07 Feb 2017 06:46:03 Retweeted: 828857101980012546
+07 Feb 2017 06:46:03 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:46:04 Retweeted: 828857154840850432
+07 Feb 2017 06:46:10 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:46:12 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:46:12 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:46:15 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:46:40 Retweeted: 828857396336418817
+07 Feb 2017 06:46:45 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:46:52 Retweeted: 828857456176402432
+07 Feb 2017 06:46:55 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:47:09 Retweeted: 828857536853872640
+07 Feb 2017 06:47:09 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:47:36 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:47:37 Retweeted: 828857662255165444
+07 Feb 2017 06:47:37 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:47:37 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:48:05 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:48:17 Retweeted: 828857832833417216
+07 Feb 2017 06:48:18 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:48:21 Retweeted: 828857849975418880
+07 Feb 2017 06:48:22 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:48:29 Retweeted: 828857883043385344
+07 Feb 2017 06:48:30 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:48:32 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:48:35 Retweeted: 828857906770669568
+07 Feb 2017 06:48:35 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:50:10 
+07 Feb 2017 06:50:10 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:50:19 
+07 Feb 2017 06:50:19 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:53:00 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:53:02 Retweeted: 828859027677339649
+07 Feb 2017 06:53:02 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:53:03 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:53:07 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:53:30 
+07 Feb 2017 06:53:31 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:53:32 Retweeted: 828859152176799745
+07 Feb 2017 06:53:32 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:53:56 Retweeted: 828859253196726272
+07 Feb 2017 06:53:57 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:53:59 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:54:18 Retweeted: 828859344871628801
+07 Feb 2017 06:54:18 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:54:19 Retweeted: 828859347975430144
+07 Feb 2017 06:54:19 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:54:24 Retweeted: 828859372335923203
+07 Feb 2017 06:54:25 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:54:34 
+07 Feb 2017 06:54:34 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:55:12 
+07 Feb 2017 06:55:12 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:55:18 Retweeted: 828859598694187008
+07 Feb 2017 06:55:19 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:55:20 Retweeted: 828859603916038144
+07 Feb 2017 06:55:20 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:55:22 Retweeted: 828859613684576256
+07 Feb 2017 06:55:22 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:55:23 
+07 Feb 2017 06:55:24 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:55:46 Retweeted: 828859714503057408
+07 Feb 2017 06:55:46 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:55:59 
+07 Feb 2017 06:55:59 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:56:31 Retweeted: 828859901921284097
+07 Feb 2017 06:56:31 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:56:45 Retweeted: 828859963078500353
+07 Feb 2017 06:56:46 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:57:13 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:57:19 Retweeted: 828860103801634817
+07 Feb 2017 06:57:19 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:57:32 
+07 Feb 2017 06:57:32 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:57:33 Retweeted: 828860163704492033
+07 Feb 2017 06:57:33 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:57:35 Retweeted: 828860171334062081
+07 Feb 2017 06:57:35 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:58:06 Retweeted: 828860299847544832
+07 Feb 2017 06:58:06 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:58:18 Retweeted: 828860350770585600
+07 Feb 2017 06:58:18 Retweeted: 828860350451871744
+07 Feb 2017 06:58:18 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:58:19 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:58:32 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:58:33 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:58:37 Retweeted: 828860430747521026
+07 Feb 2017 06:58:37 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:58:48 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:58:59 
+07 Feb 2017 06:58:59 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:59:06 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:59:21 
+07 Feb 2017 06:59:21 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:59:23 
+07 Feb 2017 06:59:23 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:59:30 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:59:44 Retweeted: 828860711728250880
+07 Feb 2017 06:59:44 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:59:58 Retweeted: 828860772604399616
+07 Feb 2017 06:59:59 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:59:59 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 06:59:59 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 07:00:18 Retweeted: 828860857073274880
+07 Feb 2017 07:00:19 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 07:00:19 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 07:00:20 
+07 Feb 2017 07:00:20 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 07:00:20 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 07:00:21 
+07 Feb 2017 07:00:21 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 07:00:25 Retweeted: 828860885867196416
+07 Feb 2017 07:00:25 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 07:00:29 Retweeted: 828860902145458176
+07 Feb 2017 07:00:30 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 07:00:32 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 07:00:39 
+07 Feb 2017 07:00:39 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 07:00:43 Retweeted: 828860957912944641
+07 Feb 2017 07:00:43 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 07:00:44 
+07 Feb 2017 07:00:45 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 07:00:53 
+07 Feb 2017 07:00:54 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 07:00:59 Retweeted: 828861026212966400
+07 Feb 2017 07:00:59 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 07:01:04 Retweeted: 828861045737451520
+07 Feb 2017 07:01:04 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 07:01:16 Retweeted: 828861096664637440
+07 Feb 2017 07:01:16 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 07:01:51 Retweeted: 828861246959140864
+07 Feb 2017 07:01:52 Retweeted: 828861246875250688
+07 Feb 2017 07:01:52 Retweeted: 828861246854328321
+07 Feb 2017 07:01:52 Retweeted: 828861247353450496
+07 Feb 2017 07:01:52 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 07:01:53 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 07:01:53 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 07:01:53 Retweeted: 828861251207970816
+07 Feb 2017 07:01:53 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 07:01:54 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 07:02:23 
+07 Feb 2017 07:02:23 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 07:02:24 
+07 Feb 2017 07:02:25 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 07:03:18 Retweeted: 828861608793366528
+07 Feb 2017 07:03:18 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 07:03:20 
+07 Feb 2017 07:03:21 
+07 Feb 2017 07:03:21 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 07:03:21 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 07:03:21 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 07:03:30 
+07 Feb 2017 07:03:31 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 07:03:39 Retweeted: 828861696924065792
+07 Feb 2017 07:03:39 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 07:03:58 Retweeted: 828861778750697473
+07 Feb 2017 07:03:58 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 07:04:54 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 07:05:15 
+07 Feb 2017 07:05:16 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 07:05:44 
+07 Feb 2017 07:05:45 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 07:05:55 Retweeted: 828862269262032896
+07 Feb 2017 07:05:55 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 07:06:01 Retweeted: 828862294377377793
+07 Feb 2017 07:06:01 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 07:06:28 
+07 Feb 2017 07:06:29 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 07:06:31 Retweeted: 828862422022774784
+07 Feb 2017 07:06:32 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 07:06:36 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 07:07:22 Retweeted: 828862632329408513
+07 Feb 2017 07:07:22 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 07:07:37 Retweeted: 828862695646519296
+07 Feb 2017 07:07:37 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 07:07:38 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 07:08:07 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 07:08:08 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 07:08:16 
+07 Feb 2017 07:08:16 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 07:08:18 Retweeted: 828862863724990464
+07 Feb 2017 07:08:18 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 07:08:44 Retweeted: 828862976966946816
+07 Feb 2017 07:08:44 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 07:08:53 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 07:09:00 
+07 Feb 2017 07:09:00 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 07:09:07 Retweeted: 828863074723434497
+07 Feb 2017 07:09:07 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 07:09:11 
+07 Feb 2017 07:09:12 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 07:09:18 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 07:09:24 Retweeted: 828863142914449408
+07 Feb 2017 07:09:24 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 07:09:27 Retweeted: 828863157510762496
+07 Feb 2017 07:09:27 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 07:09:30 Retweeted: 828863171897200640
+07 Feb 2017 07:09:30 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 07:09:37 Retweeted: 828863201513132032
+07 Feb 2017 07:09:38 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 07:10:06 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 07:10:20 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 07:10:26 Retweeted: 828863405570326528
+07 Feb 2017 07:10:26 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 07:10:27 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 07:10:29 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 07:10:37 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 07:10:42 Retweeted: 828863472297472001
+07 Feb 2017 07:10:42 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 07:11:09 Retweeted: 828863584314736640
+07 Feb 2017 07:11:09 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 07:11:45 
+07 Feb 2017 07:11:45 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 07:12:05 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 07:12:28 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 07:12:35 Retweeted: 828863946580856833
+07 Feb 2017 07:12:36 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 07:12:57 Retweeted: 828864038385782784
+07 Feb 2017 07:12:58 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 07:14:19 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 07:14:20 Retweeted: 828864387091947520
+07 Feb 2017 07:14:20 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 07:14:24 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 07:14:27 Retweeted: 828864417592926208
+07 Feb 2017 07:14:28 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 07:14:29 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 07:14:32 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 07:15:33 Retweeted: 828864691682283520
+07 Feb 2017 07:15:33 Retweeted: 828864691732623360
+07 Feb 2017 07:15:33 Retweeted: 828864692080762880
+07 Feb 2017 07:15:33 Retweeted: 828864692143652864
+07 Feb 2017 07:15:34 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 07:15:34 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 07:15:34 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 07:15:34 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 07:15:38 
+07 Feb 2017 07:15:38 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 07:15:50 
+07 Feb 2017 07:15:50 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 07:15:57 
+07 Feb 2017 07:15:57 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 07:16:36 
+07 Feb 2017 07:16:36 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 07:16:39 
+07 Feb 2017 07:16:39 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 07:17:27 Retweeted: 828865169816166400
+07 Feb 2017 07:17:27 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 07:17:40 Retweeted: 828865227848564736
+07 Feb 2017 07:17:41 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 07:18:22 Retweeted: 828865398040694784
+07 Feb 2017 07:18:23 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 07:18:24 Retweeted: 828865408631504896
+07 Feb 2017 07:18:26 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 07:18:26 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 07:18:29 Retweeted: 828865415245873152
+07 Feb 2017 07:18:29 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 07:18:35 Retweeted: 828865455666323458
+07 Feb 2017 07:18:35 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 07:18:37 Retweeted: 828865465141260289
+07 Feb 2017 07:18:38 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 07:18:42 
+07 Feb 2017 07:18:42 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 07:18:50 Retweeted: 828865518698389504
+07 Feb 2017 07:18:50 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 07:19:06 
+07 Feb 2017 07:19:07 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 07:19:08 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 07:19:19 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 07:19:26 Retweeted: 828865668913197056
+07 Feb 2017 07:19:26 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 07:19:29 Retweeted: 828865681932292096
+07 Feb 2017 07:19:29 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 07:20:23 
+07 Feb 2017 07:20:23 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 07:21:07 
+07 Feb 2017 07:21:07 [{u'message': u'You have already retweeted this tweet.', u'code': 327}]
+07 Feb 2017 07:23:23 Retweeted: 828866666658308099
+07 Feb 2017 07:23:33 Retweeted: 828866705644335109
+07 Feb 2017 07:23:38 Retweeted: 828866727505166336
+07 Feb 2017 07:23:41 Retweeted: 828866742139154433

@@ -62,7 +62,7 @@ class PyStreamListener(StreamListener):
 			# exception handling for failed retweeting		
 			except Exception as e:
 				logging.error(e)
-				log(e.message)
+				#log(e.message)
 
 				# ugly logging of rate limit status
 				#log(twitter_client.rate_limit_status())
