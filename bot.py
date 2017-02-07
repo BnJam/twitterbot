@@ -32,7 +32,7 @@ twitter_client = API(auth_handler)
 logging.getLogger("main").setLevel(logging.INFO)
 
 # exclude these keywords
-AVOID = ["java"]
+AVOID = ["java" ]
 
 
 class PyStreamListener(StreamListener):
@@ -118,4 +118,4 @@ if __name__ == "__main__":
 	listener = PyStreamListener()
 	stream = Stream(auth_handler, listener)
 	# which hashtags to track and send to stream
-	stream.filter(track=['#develop', '#coding', '#programming', '#computerscience', '#compsci', '#softwaredeveloper', '#software'])
+	stream.filter(track=['#develop', '#coding', '#programming', '#computerscience', '#compsci', '#softwaredeveloper', '#software', '#algorithm', '#bigdata'])
