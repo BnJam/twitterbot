@@ -12,6 +12,7 @@ import json
 import logging
 import warnings
 import time
+from random import randint
 from pprint import pprint
 from tweepy import Stream
 from tweepy import StreamListener
@@ -40,7 +41,6 @@ logging.getLogger("main").setLevel(logging.INFO)
 # exclude these keywords
 AVOID = ["java" ]
 
-
 class PyStreamListener(StreamListener):
 	def on_data(self, data):
 		tweet = json.loads(data)
@@ -66,13 +66,12 @@ class PyStreamListener(StreamListener):
 					log("Retweeted: " + tweet['id_str'])
 					# sleep for 5 minutes before posting again
 					log("Sleeping")
-					time.sleep(60*5)
+					time.sleep(60)
 					#print twitter_client.rate_limit_status()
 			# exception handling for failed retweeting		
 			except Exception as e:
 				logging.error(e)
-				#log(e.message)
-
+				#print e.message
 				# ugly logging of rate limit status
 				#log(twitter_client.rate_limit_status())
 			return True
@@ -120,11 +119,19 @@ def log(message):
 	with open(os.path.join(path, logfile_name), 'a+') as f:
 		t = strftime("%d %b %Y %H:%M:%S", gmtime())
 		f.write("\n" + t + " " + str(message))
-
-
+	
 # main execution
 if __name__ == "__main__":
+
+	# hashtags to track
+	#t = ['#develop', '#coding', '#programming', '#software', '#algorithm', '#bigdata', '#developer']
+	# set up random tag to retweet about
+	#tag = randint(0,len(t))
+	#hashtag = t[tag]
+	#print hashtag
+			
 	listener = PyStreamListener()
 	stream = Stream(auth_handler, listener)
 	# which hashtags to track and send to stream
-	stream.filter(track=['#develop', '#coding', '#programming', '#computerscience', '#compsci', '#softwaredeveloper', '#software', '#algorithm', '#bigdata'])
+	stream.filter(track=['#develop', '#coding', '#programming', '#software', '#algorithm', '#developer'])
+	print track
