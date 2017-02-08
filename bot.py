@@ -1,11 +1,17 @@
 #!/usr/bin/env python
 
+# Author: Benjamin Smith
+# Date:   6th Feb 2017
+# File: bot.py
+# Purpose: Retweet tweets associated toward computer science topics
+
 # import libraries
 import os
 import tweepy
 import json
 import logging
 import warnings
+import time
 from pprint import pprint
 from tweepy import Stream
 from tweepy import StreamListener
@@ -58,6 +64,9 @@ class PyStreamListener(StreamListener):
 					twitter_client.retweet(tweet['id_str'])
 					logging.debug("RT: {}".format(tweet['text']))
 					log("Retweeted: " + tweet['id_str'])
+					# sleep for 5 minutes before posting again
+					log("Sleeping")
+					time.sleep(60*5)
 					#print twitter_client.rate_limit_status()
 			# exception handling for failed retweeting		
 			except Exception as e:
