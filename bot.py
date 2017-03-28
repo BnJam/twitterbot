@@ -62,16 +62,18 @@ class PyStreamListener(StreamListener):
 				if publish:
 					# if new id - retweet
 					twitter_client.retweet(tweet['id_str'])
-					logging.debug("RT: {}".format(tweet['text']))
+					twitter_client.create_favorite(tweet['id_str'])
+					logging.debug("RT: ".format(tweet['text']))
 					log("Retweeted: " + tweet['id_str'])
-					# sleep for 5 minutes before posting again
-					log("Sleeping")
-					time.sleep(60*3)
+					# sleep for 6 minutes before posting again
+					print("Retweeted & Favorited --> Sleeping")
+					log("Retweeted & Favorited --> Sleeping")
+					time.sleep(60*6)
 					#print twitter_client.rate_limit_status()
 			# exception handling for failed retweeting		
 			except Exception as e:
 				logging.error(e)
-				#print e.message
+
 				# ugly logging of rate limit status
 				#log(twitter_client.rate_limit_status())
 			return True
@@ -79,14 +81,18 @@ class PyStreamListener(StreamListener):
 		# exception handling for rate limits	
 		except TweepError:
 			handle_rate_limit_error()
+			print("Sleeping - Rate limit reached")
 			log("sleeping")
-			time.sleep(60*5)
+			time.sleep(60*60)
 
 	def on_error(self, status):
 		if status == 420:
 			# disconnect stream if rate limit is reached
+			print("Disconnecting stream")
 			log("Disconnecting stream")
-			return False
+			time.sleep(60*60)
+			print("Retrying stream")
+			return True  # return False
 		print status
 
 
@@ -129,9 +135,9 @@ if __name__ == "__main__":
 	#tag = randint(0,len(t))
 	#hashtag = t[tag]
 	#print hashtag
-			
+	
 	listener = PyStreamListener()
 	stream = Stream(auth_handler, listener)
 	# which hashtags to track and send to stream
-	stream.filter(track=['#develop', '#coding', '#programming', '#algorithm', '#developer'])
-	print track
+	stream.filter(track=['#datascience', '#programming', '#algorithms', '#developer'])
+	#print track

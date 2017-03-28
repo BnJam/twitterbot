@@ -1,11 +1,12 @@
-import os
+# Terrible
+#import os
 
-running = True
+#running = True
 
-while True:
-	try:
-		os.system('python bot.py')
-	except e:
-			print(e)
-			running = False
-	running = True
+#while True:
+#	try:
+#		os.system('python bot.py')
+#	except e:
+#		running = False
+#		print(e)
+
