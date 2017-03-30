@@ -33,7 +33,8 @@ auth_handler = OAuthHandler(C_KEY, C_SECRET)
 auth_handler.set_access_token(A_TOKEN, A_TOKEN_SECRET)
 
 # Autheticating client
-twitter_client = API(auth_handler)
+twitter_client = API(auth_handler, retry_count=1, wait_on_rate_limit=True, wait_on_rate_limit_notify=True)
+
 
 # set logging
 logging.getLogger("main").setLevel(logging.INFO)
@@ -68,8 +69,8 @@ class PyStreamListener(StreamListener):
 					# sleep for 6 minutes before posting again
 					print("Retweeted & Favorited --> Sleeping")
 					log("Retweeted & Favorited --> Sleeping")
-					time.sleep(60*6)
 					#print twitter_client.rate_limit_status()
+					time.sleep(60*6)
 			# exception handling for failed retweeting		
 			except Exception as e:
 				logging.error(e)
@@ -93,6 +94,13 @@ class PyStreamListener(StreamListener):
 			time.sleep(60*60)
 			print("Retrying stream")
 			return True  # return False
+		if status == 88:
+			# disconnect stream if rate limit is reached
+			print("Rate Limit Exceeded")
+			log("Rate Limit Exceeded")
+			#time.sleep(60*15)
+			#print("Retrying stream")
+			return False  # return False
 		print status
 
 
