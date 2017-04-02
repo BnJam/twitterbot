@@ -12,6 +12,7 @@ import json
 import logging
 import warnings
 import time
+import httplib
 from random import randint
 from pprint import pprint
 from tweepy import Stream
@@ -44,64 +45,76 @@ AVOID = ["java" ]
 
 class PyStreamListener(StreamListener):
 	def on_data(self, data):
-		tweet = json.loads(data)
-		try:
+		while True:
+			tweet = json.loads(data)
 			try:
-				publish = True
+				try:
+					publish = True
 
-				#if tweet includes excluded words don't retweet
-				for word in AVOID:
-					if word in tweet['text'].lower():
-						logging.info("SKIPPED FOR {}".format(word))
+					#if tweet includes excluded words don't retweet
+					for word in AVOID:
+						if word in tweet['text'].lower():
+							logging.info("SKIPPED FOR {}".format(word))
+							publish = False
+
+					# if tweet is not in english don't retweet
+					if tweet.get('lang') and tweet.get('lang') != 'en':
 						publish = False
 
-				# if tweet is not in english don't retweet
-				if tweet.get('lang') and tweet.get('lang') != 'en':
-					publish = False
+					# if tweet hasnt been retweeted
+					if publish:
+						# if new id - retweet
+						twitter_client.retweet(tweet['id_str'])
+						twitter_client.create_favorite(tweet['id_str'])
+						logging.debug("RT: ".format(tweet['text']))
+						log("Retweeted: " + tweet['id_str'])
+						# sleep for 6 minutes before posting again
+						print("Retweeted & Favorited --> Sleeping")
+						log("Retweeted & Favorited --> Sleeping")
+						#print twitter_client.rate_limit_status()
+						time.sleep(60*6)
+				# exception handling for failed retweeting		
+				except Exception as e:
+					logging.error(e)
 
-				# if tweet hasnt been retweeted
-				if publish:
-					# if new id - retweet
-					twitter_client.retweet(tweet['id_str'])
-					twitter_client.create_favorite(tweet['id_str'])
-					logging.debug("RT: ".format(tweet['text']))
-					log("Retweeted: " + tweet['id_str'])
-					# sleep for 6 minutes before posting again
-					print("Retweeted & Favorited --> Sleeping")
-					log("Retweeted & Favorited --> Sleeping")
-					#print twitter_client.rate_limit_status()
-					time.sleep(60*6)
-			# exception handling for failed retweeting		
-			except Exception as e:
-				logging.error(e)
+					# ugly logging of rate limit status
+					#log(twitter_client.rate_limit_status())
+				return True
+			# Handle incomplete reads by continuing to the next target
+			except httplib.IncompleteRead:
+				print("Incomplete Read occurred --> continuing")
+				continue
+			except KeyboardInterrupt:
+				print("\n\nUser disconnected stream")
+				stream.disconnect()
+				break
+			# exception handling for rate limits	
+			except TweepError:
+				handle_rate_limit_error()
+				print("Rate limit reached --> Sleeping for 1hr")
+				log("sleeping")
+				time.sleep(60*60)
 
-				# ugly logging of rate limit status
-				#log(twitter_client.rate_limit_status())
+	def on_error(self, status_code):
+		if status_code == 185:
+			print("Code 185: User is over daily status update limit --> Sleeping")
+			time.sleep(60*15)
 			return True
-
-		# exception handling for rate limits	
-		except TweepError:
-			handle_rate_limit_error()
-			print("Sleeping - Rate limit reached")
-			log("sleeping")
-			time.sleep(60*60)
-
-	def on_error(self, status):
-		if status == 420:
+		if status_code == 420:
 			# disconnect stream if rate limit is reached
-			print("Disconnecting stream")
+			print("Code 420: Disconnecting stream")
 			log("Disconnecting stream")
 			time.sleep(60*60)
 			print("Retrying stream")
 			return True  # return False
-		if status == 88:
+		if status_code == 88:
 			# disconnect stream if rate limit is reached
-			print("Rate Limit Exceeded")
+			print("Code 88: Rate Limit Exceeded")
 			log("Rate Limit Exceeded")
 			#time.sleep(60*15)
 			#print("Retrying stream")
 			return False  # return False
-		print status
+		print status_code
 
 
 #
@@ -147,5 +160,5 @@ if __name__ == "__main__":
 	listener = PyStreamListener()
 	stream = Stream(auth_handler, listener)
 	# which hashtags to track and send to stream
-	stream.filter(track=['#datascience', '#programming', '#algorithms', '#developer'])
+	stream.filter(track=['#datascience', '#programming', '#MachineLearning', '#algorithms', '#developer'])
 	#print track
