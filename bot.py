@@ -66,7 +66,7 @@ class PyStreamListener(StreamListener):
 					log("Retweeted: " + tweet['id_str'])
 					# sleep for 5 minutes before posting again
 					log("Sleeping")
-					time.sleep(60*3)
+					time.sleep(60*10)
 					#print twitter_client.rate_limit_status()
 			# exception handling for failed retweeting		
 			except Exception as e:
@@ -80,7 +80,7 @@ class PyStreamListener(StreamListener):
 		except TweepError:
 			handle_rate_limit_error()
 			log("sleeping")
-			time.sleep(60*5)
+			time.sleep(60*10)
 
 	def on_error(self, status):
 		if status == 420:
@@ -134,4 +134,4 @@ if __name__ == "__main__":
 	stream = Stream(auth_handler, listener)
 	# which hashtags to track and send to stream
 	stream.filter(track=['#develop', '#coding', '#programming', '#algorithm', '#developer'])
-	print track
+#	print track
