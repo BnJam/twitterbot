@@ -43,12 +43,25 @@ logging.getLogger("main").setLevel(logging.INFO)
 # exclude these keywords
 AVOID = ["java" ]
 
+count = 0
+
 class PyStreamListener(StreamListener):
 	def on_data(self, data):
 		while True:
 			tweet = json.loads(data)
 			try:
 				try:
+					global count
+					if count == 0:
+						nap = 6
+					elif count == 1:
+						nap = 10
+					elif count == 2:
+						nap = 8
+						count = 0
+					else: 
+						count = 0
+
 					publish = True
 
 					#if tweet includes excluded words don't retweet
@@ -71,8 +84,11 @@ class PyStreamListener(StreamListener):
 						# sleep for 6 minutes before posting again
 						#print("Retweeted & Favorited --> Sleeping")
 						log("Retweeted & Favorited --> Sleeping")
+						print("sleeping for: '%d' minutes", nap)
+						print("Count: '%d'", count)
 						#print twitter_client.rate_limit_status()
-						time.sleep(60*6)
+						count += 1
+						time.sleep(60*nap)
 				# exception handling for failed retweeting		
 				except Exception as e:
 					logging.error(e)
@@ -157,7 +173,6 @@ if __name__ == "__main__":
 	#tag = randint(0,len(t))
 	#hashtag = t[tag]
 	#print hashtag
-	
 	listener = PyStreamListener()
 	stream = Stream(auth_handler, listener)
 	# which hashtags to track and send to stream
