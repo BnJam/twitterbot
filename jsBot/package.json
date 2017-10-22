@@ -1,0 +1,29 @@
+{
+  "name": "jsbot",
+  "version": "1.0.0",
+  "description": "Twitter Bot made with JS",
+  "main": "bot.js",
+  "dependencies": {
+    "twit": "^2.2.9"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BnJam/Twitterbot.git"
+  },
+  "keywords": [
+    "twitter",
+    "bot",
+    "js",
+    "javascript"
+  ],
+  "author": "Benjamin Smith",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/BnJam/Twitterbot/issues"
+  },
+  "homepage": "https://github.com/BnJam/Twitterbot#readme"
+}

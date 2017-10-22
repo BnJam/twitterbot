@@ -60,8 +60,12 @@ target/
 .idea/
 .DS_Store
 secrets.py
+pythonBot/secrets.py
+jsBot/config.js
 json
 logging
 time
 warnings
 os
+node_modules
+node_modules/*
