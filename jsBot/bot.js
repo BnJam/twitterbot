@@ -20,36 +20,8 @@ var params1 = ['#nodejs, #Nodejs, #javascript'];
 var Twitter = new twit(config); //Pass in configuration file tokens and such
 
 class JSBot {
-	// static retweet - issues finding new tweets
-	get retweet() {
-		Twitter.get('search/tweets', params, function(err,data) {
-			// if there are no errors
-			if(!err) {
-				//Grab ID of tweet to retweet
-				var retweetID = data.statuses[0].id_str;
-				console.log(retweetID);
-				// Tell Twitter to retweet
-				return Twitter.post('statuses/retweet/:id', {
-					id: retweetID
-				}, function(err, response) {
-					if(response) {
-						console.log('Retweeted!');
-					}
-					//if there was an error while tweeting
-					if(err) {
-						console.log("error while tweeting. "+ err);
-					}
-					
-				});
-			} 
-			// in unable to search for tweet
-			else {
-				console.log("Error searching");
-			}
-		});
-	}
-
-	retweet1() {
+	
+	retweet() {
 		var stream = Twitter.stream('statuses/filter', {track:params1});
 			stream.on('tweet', function(tweet) {
 				//if(params1.valid(tweet)) {
@@ -97,6 +69,6 @@ class JSBot {
 }
 
 var jsBot = new JSBot();
-jsBot.retweet1;
+jsBot.retweet;
 
-setInterval(jsBot.retweet1,10000);
+setInterval(jsBot.retweet,10000);
