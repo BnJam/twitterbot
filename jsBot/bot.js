@@ -19,42 +19,61 @@ class JSBot {
 	
 	// Retweets a tweet based on the tracked tags.
 	retweet() {
-		var stream = Twitter.stream('statuses/filter', {track:params});
-			stream.on('tweet', function(tweet) {
-				
-				// Post retweet
-				Twitter.post('statuses/retweet', {id: tweet.id_str}, function(err, reply) {
-					if(err) {
-						console.log(err);
-					} else {
-						if(flag == 0) {
-							console.log('[' + now.toJSON() + '] SENT: ' + tweet.text);
-							console.log("Sleeping for 4 mins at " + now.toJSON());
-							sleep.sleep(240); // 4 mins
-						}
-						if(flag == 1) {
-							console.log('[' + now.toJSON() + '] SENT: ' + tweet.text);
-							console.log("Sleeping for 10 mins at " + now.toJSON());
-							sleep.sleep(600); // 10 mins
-						}
-						if(flag == 2) {
-							console.log('[' + now.toJSON() + '] SENT: ' + tweet.text);
-							console.log("Sleeping for 8 mins at " + now.toJSON());
-							sleep.sleep(480); // 8 mins
-						}
-						if(flag == 3) {
-							console.log('[' + now.toJSON() + '] SENT: ' + tweet.text);
-							console.log("Sleeping for 12 mins at " + now.toJSON());
-							sleep.sleep(720);
-						}
-					}
-				});
+		var stream = Twitter.stream('statuses/filter', {track:params, language:'en'});
+		stream.on('tweet', function(tweet) {
+			/*
+			stream.on('connected' function(connectionMessage) {
 			});
+			
+			*/
+			// Post retweet
+			Twitter.post('statuses/retweet', {id: tweet.id_str}, function(err, reply) {
+				if(err) {
+					console.log(err);
+				} else {
+					if(flag == 0) {
+						console.log('[' + now.toJSON() + '] SENT: ' + tweet.text);
+						console.log("Sleeping for 4 mins at " + now.toJSON());
+						sleep.sleep(240); // 4 mins
+					}
+					if(flag == 1) {
+						console.log('[' + now.toJSON() + '] SENT: ' + tweet.text);
+						console.log("Sleeping for 10 mins at " + now.toJSON());
+						sleep.sleep(600); // 10 mins
+					}
+					if(flag == 2) {
+						console.log('[' + now.toJSON() + '] SENT: ' + tweet.text);
+						console.log("Sleeping for 8 mins at " + now.toJSON());
+						sleep.sleep(480); // 8 mins
+					}
+					if(flag == 3) {
+						console.log('[' + now.toJSON() + '] SENT: ' + tweet.text);
+						console.log("Sleeping for 12 mins at " + now.toJSON());
+						sleep.sleep(720);
+					}
+				}
+			});
+		});
 		if(flag == 3) {
 			flag = 0;
 		} else {
 			flag++;
 		}
+		
+		/*
+		// TODO
+		
+		stream.on('favoite', function(tweet) {
+		});
+		
+		stream.on('limit', function(limitMessage) {
+		});
+		
+		stream.on('disconnected', function(disconnectMessage) {
+		});
+		
+		
+		*/
 		return stream;
 	}
 }
