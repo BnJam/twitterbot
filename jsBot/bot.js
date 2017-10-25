@@ -1,10 +1,9 @@
 // bot.js
 // Author: Benjamin Smith // BnJam
-// 
-// References:
-// https://hackernoon.com/create-a-simple-twitter-bot-with-node-js-5b14eb006c08
 
-
+/*
+ Retweet bot that retweets based on passed tags
+*/
 
 var twit = require('twit');
 var config = require('./config.js');
