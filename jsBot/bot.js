@@ -20,18 +20,21 @@ class JSBot {
 	// Retweets a tweet based on the tracked tags.
 	retweet() {
 		var stream = Twitter.stream('statuses/filter', {track:params, language:'en'});
+		
+		// Emitted when a connection attempt is made to Twitter
+		// request is a http object
+		stream.on('connect', function(request) {
+			console.log(request);
+		});
+
 		stream.on('tweet', function(tweet) {
-			
-			stream.on('connected', function(connectionMessage) {
-				console.log(connectionMessage);
-			});
-			
 			
 			// Post retweet
 			Twitter.post('statuses/retweet', {id: tweet.id_str}, function(err, reply) {
 				if(err) {
 					console.log(err);
 				} else {
+					// Work around rate limits
 					if(flag == 0) {
 						console.log('[' + now.toJSON() + '] SENT: ' + tweet.text);
 						console.log("Sleeping for 4 mins at " + now.toJSON());
@@ -61,20 +64,21 @@ class JSBot {
 			flag++;
 		}
 		
-		/*
+		
 		// TODO
-		
-		stream.on('favoite', function(tweet) {
-		});
-		
+
 		stream.on('limit', function(limitMessage) {
+
 		});
 		
 		stream.on('disconnected', function(disconnectMessage) {
 		});
+
+		stram.on('reconnect', function(request, response, 10000) {
+
+		});
 		
 		
-		*/
 		return stream;
 	}
 }
