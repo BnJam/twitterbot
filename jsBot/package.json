@@ -4,6 +4,7 @@
   "description": "Twitter Bot made with JS",
   "main": "bot.js",
   "dependencies": {
+    "sleep": "^5.1.1",
     "twit": "^2.2.9"
   },
   "devDependencies": {},

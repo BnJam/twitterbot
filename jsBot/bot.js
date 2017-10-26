@@ -21,11 +21,12 @@ class JSBot {
 	retweet() {
 		var stream = Twitter.stream('statuses/filter', {track:params, language:'en'});
 		stream.on('tweet', function(tweet) {
-			/*
-			stream.on('connected' function(connectionMessage) {
+			
+			stream.on('connected', function(connectionMessage) {
+				console.log(connectionMessage);
 			});
 			
-			*/
+			
 			// Post retweet
 			Twitter.post('statuses/retweet', {id: tweet.id_str}, function(err, reply) {
 				if(err) {
