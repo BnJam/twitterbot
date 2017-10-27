@@ -24,7 +24,11 @@ class JSBot {
 		// Emitted when a connection attempt is made to Twitter
 		// request is a http object
 		stream.on('connect', function(request) {
-			console.log(request);
+			console.log("Attempting to connect");
+		});
+
+		stream.on('connected', function(reply) {
+			console.log("connected");
 		});
 
 		stream.on('tweet', function(tweet) {
@@ -57,7 +61,18 @@ class JSBot {
 					}
 				}
 			});
+
+			// Favorites the tweet pulled in by stream
+			Twitter.post('favorites/create', {id: tweet.id_str}, function(err, reply) {
+				if(err) {
+					console.log(err);
+				} else {
+					console.log(reply);
+				}
+			});
 		});
+
+		// set and reset flag for limit workaround
 		if(flag == 3) {
 			flag = 0;
 		} else {
@@ -68,14 +83,15 @@ class JSBot {
 		// TODO
 
 		stream.on('limit', function(limitMessage) {
-
+			console.log("Zippy has hit a Twitter rate limit: ", limitMessage);
 		});
 		
 		stream.on('disconnected', function(disconnectMessage) {
+			console.log("Zippy has been disconnected: ", disconnectMessage);
 		});
 
-		stram.on('reconnect', function(request, response, 10000) {
-
+		stream.on('reconnect', function(request, response, time) {
+			console.log("Zippy will reconnect to Twitter in (ms):", time);
 		});
 		
 		
