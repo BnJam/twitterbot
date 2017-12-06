@@ -12,7 +12,7 @@ import json
 import logging
 import warnings
 import time
-import httplib
+import http.client
 from random import randint
 from pprint import pprint
 from tweepy import Stream
@@ -131,7 +131,7 @@ class PyStreamListener(StreamListener):
 			#time.sleep(60*15)
 			#print("Retrying stream")
 			return False  # return False
-		print status_code
+		print(status_code)
 
 
 #
