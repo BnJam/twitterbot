@@ -1,12 +1,13 @@
 # Terrible
 import os
-import httplib
+import http.client
+import tweepy
 
 running = True
 
 while True:
 	try:
-		os.system('python bot.py')
+		os.system('python3 bot.py')
 	except e:
 		running = False
 		stream.disconnect()

@@ -7,7 +7,7 @@
 
 # import libraries
 import os
-import tweepy
+import tweepy 
 import json
 import logging
 import warnings
@@ -53,11 +53,11 @@ class PyStreamListener(StreamListener):
 				try:
 					global count
 					if count == 0:
-						nap = 6
+						nap = 25
 					elif count == 1:
-						nap = 10
+						nap = 38
 					elif count == 2:
-						nap = 8
+						nap = 22
 						count = 0
 					else: 
 						count = 0
@@ -176,5 +176,5 @@ if __name__ == "__main__":
 	listener = PyStreamListener()
 	stream = Stream(auth_handler, listener)
 	# which hashtags to track and send to stream
-	stream.filter(track=['#datascience', '#programming', '#MachineLearning', '#algorithms', '#developer'])
+	stream.filter(track=['#datascience', '#learnpython', '#machinelearning', '#python', '#deeplearning'])
 	#print track
