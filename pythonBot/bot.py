@@ -55,9 +55,13 @@ class PyStreamListener(StreamListener):
 					if count == 0:
 						nap = 25
 					elif count == 1:
-						nap = 38
+						nap = 28
 					elif count == 2:
 						nap = 22
+					elif count == 3:
+						nap = 62
+					elif count == 4:
+						nap = 26
 						count = 0
 					else: 
 						count = 0
