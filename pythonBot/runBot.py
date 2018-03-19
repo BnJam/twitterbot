@@ -7,7 +7,7 @@ running = True
 
 while True:
 	try:
-		os.system('python3 bot.py')
+		os.system('python3 botv2.py')
 	except e:
 		running = False
 		stream.disconnect()
