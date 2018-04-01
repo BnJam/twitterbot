@@ -65,6 +65,7 @@ class pyBot:
 							continue
 		except tweepy.TweepError as e:
 			print("Error Thrown: "+ e.reason)
+			pass
 		except StopIteration:
 			print("StopIteration")
 
